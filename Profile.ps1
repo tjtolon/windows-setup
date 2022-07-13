@@ -1,1 +1,1 @@
-. (Split-path $profile)\powershell-aliases.ps1
+. ((Split-path $profile)+ "\powershell-aliases.ps1")
