@@ -4,7 +4,8 @@ Stuff for setting up Windows nicely
 In powershell
 `(Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tjtolon/windows-setup/main/install.ps1").content | powershell.exe`
 
-For development, assuming git is installed.
-`cd (split-path $profile)`
-`git clone git@github.com:tjtolon/windows-setup.git .`
-`mv .\Profile.ps1 $profile`
+
+# For installing all with git
+- Assume Git has been installed.
+
+`(Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tjtolon/windows-setup/main/install_git.ps1").content | powershell.exe`
