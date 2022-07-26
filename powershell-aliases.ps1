@@ -15,3 +15,6 @@ Set-Alias -Name ga -Value Git-Add
 
 function Git-Stash { git stash }
 Set-Alias -Name gsta -Value Git-Stash
+
+function Dot-Dot { Set-Location (Split-Path (Get-Location))}
+Set-Alias -Name .. -Value Dot-Dot
