@@ -12,3 +12,6 @@ Set-Alias -Name gau -Value Git-AddUpdated
 
 function Git-Add { git add }
 Set-Alias -Name ga -Value Git-Add
+
+function Git-Stash { git stash }
+Set-Alias -Name gsta -Value Git-Stash
